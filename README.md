@@ -9,7 +9,7 @@ get(key)
 Param: key (key against which we retrieve value)
 
 ### GET Usage:
-./getfoofs <key> 
+./getfoofs "key" 
 
 ## PUT 
 put(key,value)
@@ -19,7 +19,7 @@ Params:
 - value (value stored against key)
 
 ### PUT Usage:
-./putfoofs <key> <value>
+./putfoofs "key" "value"
 
 ## Hashing Function
 - MD5 Hash
@@ -30,7 +30,7 @@ delete(key)
 Param: key (key against which we delete value)
 
 ### GET Usage:
-./deletefoofs <key> 
+./deletefoofs "key" 
 
 ## System Design
 ### Master Server (Not yet implemented)
