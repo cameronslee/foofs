@@ -1,0 +1,5 @@
+#!/bin/bash
+export VOLUME=${1:-/tmp/volume1/}
+export TYPE=volume
+uwsgi --disable-logging --http :${PORT:-8001} --wsgi-file server.py --callable volume --master 
+

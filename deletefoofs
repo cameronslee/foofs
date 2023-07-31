@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -L -X DELETE localhost:3001/$1

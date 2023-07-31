@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -L localhost:3001/$1
