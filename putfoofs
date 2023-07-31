@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -L -X PUT -d $2 localhost:3001/$1
